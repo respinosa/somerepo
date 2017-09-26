@@ -16,7 +16,7 @@
 		<param name="MaxFileSize" value="200MB" />
 		<param name="MaxBackupIndex" value="20" />
 		<param name="Append" value="true" />
-		<param name="file" value="att-mobile.log" />
+		<param name="file" value="logfile.log" />
 		<layout class="org.apache.log4j.PatternLayout">
 			<param name="ConversionPattern" value="%d %-5p [%t] (%13F:%L) %m%n" />
 		</layout>

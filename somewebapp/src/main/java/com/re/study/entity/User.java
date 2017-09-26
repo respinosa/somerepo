@@ -13,7 +13,7 @@ import javax.persistence.Table;
 
 @SuppressWarnings("serial")
 @Entity
-@Table(name="item")
+@Table(name="user")
 @Access(AccessType.FIELD)
 public class User implements java.io.Serializable {
 	
